@@ -1,10 +1,13 @@
-# comment-store-app-springboot
-Sample Microservice using SpringBoot. 
+# Sample Microservice using SpringBoot. 
 
+```
 Basic Auth:
 
 Username: admin
 Password: password
+```
+
+---
 
 
 `/create` POST
@@ -17,9 +20,11 @@ emailAddress: example@example.org
 username: rodolfo
 ```
 
-
+---
 
 `/list/{id}` GET
+
+```
   {
     "id": "ac8682c3-79d3-47f6-a6c5-5c5869c00ea7",
     "username": "rodolfo",
@@ -27,7 +32,8 @@ username: rodolfo
     "comment": "Hi test comment One!!",
     "created": 1492657983209
   }
-
+```
+---
 
 `/listall` GET
 
