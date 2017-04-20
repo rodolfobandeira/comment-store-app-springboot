@@ -1,5 +1,11 @@
 # Sample Microservice using SpringBoot. 
 
+
+`mvn springboot:run`
+
+---
+
+
 ```
 Basic Auth:
 
