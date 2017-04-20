@@ -63,7 +63,7 @@ public class CommentstoreServiceImplTest {
     public void testListNotFound() throws IOException {
         service.put(model);
         List<CommentModel> r = service.list("aaaaaaaa123");
-        assertTrue(null == r);
+        assertTrue(r.isEmpty());
     }
 
     @Test
